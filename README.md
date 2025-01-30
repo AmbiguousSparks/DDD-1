@@ -69,8 +69,10 @@ Liste os termos principais da Linguagem Ubíqua do projeto. Explique brevemente 
 | **Termo**                    | **Descrição**                                                                                   |
 |------------------------------|-----------------------------------------------------------------------------------------------|
 | Pedido              | É feito o pedido entre o cliente e restaurante.                                                       |
-| Cliente do restaurante               | Usuário que reserva, paga e faz os pedidos.                                                      |
-| Gerente do restaurante                 | Usuário que faz o controle da ocupação e analisa os dados.                                                 |
+| Reserva              | Representa uma reserva entre o cliente e o estabelecimento                                                       |
+| Cliente               | Usuário que reserva, paga e faz os pedidos.                                                      |
+| Estabelecimento                 | É o usuário que representa o estabelecimento                                                 |
+| Fila                 | Fila de pessoas esperando para uma vaga no restaurante desejado.                                                 |
 
 ---
 
