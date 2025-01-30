@@ -19,11 +19,24 @@ Identificar os subdomínios do projeto, classificá-los (Core, Supporting, Gener
 ## 3. Identificação dos Subdomínios
 Liste os subdomínios do sistema e classifique-os como **Core Domain**, **Supporting Subdomain** ou **Generic Subdomain**.
 
+### Visão cliente
 | **Subdomínio**              | **Descrição**                                                                                      | **Tipo**         |
 |-----------------------------|--------------------------------------------------------------------------------------------------|------------------|
 | Gestão de filas             | Gerenciamento de fila online e fast pass                                                        | Core Domain      |
 | Mapa                        | Mapa com restaurantes proximos                                                                  | Generic          |
 | Pagamentos                  | Gestao de pagamentos dentro da plataforma                                                       | Generic          |
+| Cadastro de usuários        | Cadastro de usuarios na plataforma                                                              | Supporting       |
+| Menu online        | Menu onde o usuário pode fazer pedidos durante a fila                                                    | Supporting       |
+
+---
+### Visão restaurante
+| **Subdomínio**              | **Descrição**                                                                                      | **Tipo**         |
+|-----------------------------|--------------------------------------------------------------------------------------------------|------------------|
+| Controle de ocupação        | Controle de mesas e filas para gerenciamento da ocupação e dos pedidos                           | Core Domain      |
+| Análise dos dados           | Análise de dados para o restaurante (ocupação, picos)                                            | Core domain      |
+| Cadastro do Estabelecimento | Cadastro do estabelecimento no sistema                                                           | Supporting       |
+| Menu                        | Cadastro do menu do restaurante online                                                           | Supporting       |
+| Gestão dos pedidos          | Gestao da conta das mesas                                                                        | Supporting       |
 
 ---
 
