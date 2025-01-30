@@ -45,8 +45,9 @@ Liste e descreva os bounded contexts identificados no projeto. Explique a respon
 
 | **Bounded Context**           | **Responsabilidade**                                                                                 | **Subdomínios Relacionados** |
 |-------------------------------|-----------------------------------------------------------------------------------------------------|-----------------------------|
-| Ex.: Contexto de Consultas    | Gerencia as consultas médicas, do agendamento à finalização, incluindo emissão de receitas.         | Gestão de Consultas         |
-| Ex.: Contexto de Pagamentos   | Processa cobranças de consultas e repasses para médicos ou clínicas.                              | Pagamentos                  |
+| Contexto de reserva filas  | Levanta informações de ocupação e gerencia estado atual da fila         | Gestão de filas, Controle de Ocupação.         |
+| Contexto de Pagamentos   | Processa reservas de restaurantes e repassa para os estabelecimentos.                              | Pagamentos                  |
+| Contexto de Analise dos dados   | Responsavel por levantar dados da ocupação, horários e pedidos mais feitos.                              | Analise de dados |
 
 ---
 
@@ -67,9 +68,9 @@ Liste os termos principais da Linguagem Ubíqua do projeto. Explique brevemente 
 
 | **Termo**                    | **Descrição**                                                                                   |
 |------------------------------|-----------------------------------------------------------------------------------------------|
-| Ex.: Consulta                | Sessão médica entre paciente e médico.                                                       |
-| Ex.: Paciente                | Usuário que agenda e realiza consultas.                                                      |
-| Ex.: Receita                 | Prescrição médica gerada durante a consulta.                                                 |
+| Pedido              | É feito o pedido entre o cliente e restaurante.                                                       |
+| Cliente do restaurante               | Usuário que reserva, paga e faz os pedidos.                                                      |
+| Gerente do restaurante                 | Usuário que faz o controle da ocupação e analisa os dados.                                                 |
 
 ---
 
