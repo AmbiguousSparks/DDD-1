@@ -78,15 +78,16 @@ Liste os termos principais da Linguagem Ubíqua do projeto. Explique brevemente 
 
 ## 7. Estratégia de Desenvolvimento
 Para cada tipo de subdomínio, explique a abordagem para implementação:
-- **Core Domain:** Desenvolver internamente com foco total.
-- **Supporting Subdomain:** Desenvolver internamente ou parcialmente terceirizar.
-- **Generic Subdomain:** Usar ferramentas ou serviços de mercado.
+- **Core Domain:** Controle de mesas e filas para gerenciamento da ocupação e dos pedidos.
+- **Supporting Subdomain:** Cadastro de usuarios na plataforma.
+- **Generic Subdomain:** Mapa com restaurantes proximos.
 
 | **Subdomínio**              | **Estratégia**                         | **Ferramentas ou Serviços (se aplicável)** |
-|-----------------------------|---------------------------------------|-------------------------------------------|
-| Gestão de Consultas         | Desenvolvimento interno               |                                           |
-| Cadastro de Usuários        | Interno com uso de Auth0 para login   | Auth0                                     |
-| Pagamentos                  | Terceirizar usando API Stripe         | Stripe                                    |
+|-----------------------------|----------------------------------------|-------------------------------------------|
+| Controle de Fila            | Desenvolvimento interno                |                                           |
+| Controle de Mesas           | Desenvolvimento interno   |                                      |
+| Crud de Usuários            | Terceirizar usando API          | Auth0                                    |
+| Mapa            | Google Maps          | Google                                    |
 
 ---
 
