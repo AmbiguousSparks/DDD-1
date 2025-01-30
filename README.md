@@ -58,7 +58,7 @@ Explique como os bounded contexts vão se comunicar. Use os padrões de comunica
 
 | **De (Origem)**              | **Para (Destino)**          | **Forma de Comunicação**    | **Exemplo de Evento/Chamada**                  |
 |------------------------------|-----------------------------|-----------------------------|-----------------------------------------------|
-| Contexto de Filas            | Contexto de Estabelicimentos      | Mensageria (Evento)         | Solicitar reservar ou local na fila                        |
+| Contexto de Filas            | Contexto de Estabelicimentos      | Mensageria (Evento)         | Solicitar reserva ou local na fila                        |
 | Contexto de Esbelecimentos   | Contexto De Filas      | Mensageria (Evento)                         | Confirmar que a reserva ou local na fila está ativa      |
 
 ---
