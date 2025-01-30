@@ -72,7 +72,7 @@ Liste os termos principais da Linguagem Ubíqua do projeto. Explique brevemente 
 | Reserva              | Representa uma reserva entre o cliente e o estabelecimento                                                       |
 | Cliente               | Usuário que reserva, paga e faz os pedidos.                                                      |
 | Estabelecimento                 | É o estabelecimento (restaurante)                                                 |
-| Fila                 | Fila de pessoas esperando para uma vaga no restaurante desejado.                                                 |
+| Fila                 | Fila de pessoas esperando para uma mesa no restaurante desejado.                                                 |
 
 ---
 
