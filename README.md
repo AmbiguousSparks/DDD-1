@@ -6,13 +6,13 @@ Identificar os subdomínios do projeto, classificá-los (Core, Supporting, Gener
 ---
 
 ## 1. Nome do Projeto
-**[Escreva o nome do sistema ou aplicação que está sendo modelado]**
+**Gestor De Filas**
 
 ---
 
 ## 2. Objetivo Principal do Projeto
-**[Explique o propósito do sistema em uma ou duas frases]**  
-*Exemplo:* Facilitar o agendamento de consultas médicas online entre pacientes e médicos.
+**Melhorar a experiência de visita à restaurantes com alta demanda, através de gestão de filas virtuais.**  
+
 
 ---
 
