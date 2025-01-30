@@ -21,9 +21,9 @@ Liste os subdomínios do sistema e classifique-os como **Core Domain**, **Suppor
 
 | **Subdomínio**              | **Descrição**                                                                                      | **Tipo**         |
 |-----------------------------|--------------------------------------------------------------------------------------------------|------------------|
-| Ex.: Gestão de Consultas    | Gerencia o agendamento, consulta por vídeo e emissão de atestados e receitas.                   | Core Domain      |
-| Ex.: Cadastro de Usuários   | Gerencia o login, cadastro e permissões dos médicos e pacientes.                                | Supporting       |
-| Ex.: Pagamentos             | Processa pagamentos e repassa valores para médicos.                                             | Generic          |
+| Gestão de filas             | Gerenciamento de fila online e fast pass                                                        | Core Domain      |
+| Mapa                        | Mapa com restaurantes proximos                                                                  | Generic          |
+| Pagamentos                  | Gestao de pagamentos dentro da plataforma                                                       | Generic          |
 
 ---
 
