@@ -58,8 +58,8 @@ Explique como os bounded contexts vão se comunicar. Use os padrões de comunica
 
 | **De (Origem)**              | **Para (Destino)**          | **Forma de Comunicação**    | **Exemplo de Evento/Chamada**                  |
 |------------------------------|-----------------------------|-----------------------------|-----------------------------------------------|
-| Contexto de Consultas        | Contexto de Pagamentos      | Mensageria (Evento)         | "Consulta Finalizada"                         |
-| Contexto de Cadastro          | Contexto de Consultas      | API                         | Obter informações de um Paciente pelo ID      |
+| Contexto de Filas            | Contexto de Estabelicimentos      | Mensageria (Evento)         | Solicitar reservar ou local na fila                        |
+| Contexto de Esbelecimentos   | Contexto De Filas      | Mensageria (Evento)                         | Confirmar que a reserva ou local na fila está ativa      |
 
 ---
 
