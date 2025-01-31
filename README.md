@@ -26,7 +26,8 @@ Liste os subdomínios do sistema e classifique-os como **Core Domain**, **Suppor
 | Mapa                        | Mapa com restaurantes proximos                                                                  | Generic          |
 | Pagamentos                  | Gestao de pagamentos dentro da plataforma                                                       | Generic          |
 | Cadastro de usuários        | Cadastro de usuarios na plataforma                                                              | Supporting       |
-| Menu online        | Menu onde o usuário pode fazer pedidos durante a fila                                                    | Supporting       |
+| Menu        | Menu onde o usuário pode fazer pedidos durante a fila                                                    | Supporting       |
+| Gestão dos pedidos          | Gestao da conta das mesas                                                                        | Supporting       |
 
 ---
 ### Visão restaurante
