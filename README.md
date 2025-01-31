@@ -46,7 +46,6 @@ Liste e descreva os bounded contexts identificados no projeto. Explique a respon
 | **Bounded Context**           | **Responsabilidade**                                                                                 | **Subdomínios Relacionados** |
 |-------------------------------|-----------------------------------------------------------------------------------------------------|-----------------------------|
 | Contexto de reserva  | Gerencia as reservas        | Gestão de filas, Controle de Ocupação, Mapa         |
-
 | Contexto de Filas   | Responsavel por gerenciar a ordem de pessoas na fila.                              | Gestão de Filas, Mapa |
 
 | Contexto de Ocupação   | Responsavel por levantar dados da ocupação e das mesas naquele momento.                              | Contole de ocupacao |
