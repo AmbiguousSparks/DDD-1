@@ -53,6 +53,7 @@ Liste e descreva os bounded contexts identificados no projeto. Explique a respon
 | Contexto de Analise dos dados   | Responsavel por levantar dados da ocupação, horários e pedidos mais feitos.                              | Analise de dados |
 | Contexto de Cadastro  | Responsavel por fazer o cadastro de usuários e estabelecimentos                 | Cadastro de usuarios, cadastro de estabelecimentos |
 | Contexto de pedidos   | Responsavel por gerenciar os pedidos feitos nas filas ou nas mesas.                              | Gestão de pedidos, Menu |
+| Contexto de Conta   | Responsavel por gerenciar a conta dos usuarios                               | Gestão de pedidos, Usuarios |
 
 ---
 
@@ -63,8 +64,8 @@ Explique como os bounded contexts vão se comunicar. Use os padrões de comunica
 
 | **De (Origem)**              | **Para (Destino)**          | **Forma de Comunicação**    | **Exemplo de Evento/Chamada**                  |
 |------------------------------|-----------------------------|-----------------------------|-----------------------------------------------|
-| Contexto de Filas            | Contexto de Estabelicimentos      | Mensageria (Evento)         | Solicitar reserva ou local na fila                        |
-| Contexto de Esbelecimentos   | Contexto De Filas      | Mensageria (Evento)                         | Confirmar que a reserva ou local na fila está ativa      |
+| Contexto de Reserva          | Contexto de Ocupaçao        | API                         | Solicitar reserva.                            |
+| Contexto de Filas            | Contexto De Ocupação        | Mensageria (Evento)         | Confirmar que a reserva ou local na fila está ativa      |
 
 ---
 
@@ -73,7 +74,7 @@ Liste os termos principais da Linguagem Ubíqua do projeto. Explique brevemente 
 
 | **Termo**                    | **Descrição**                                                                                   |
 |------------------------------|-----------------------------------------------------------------------------------------------|
-| Pedido              | É feito o pedido entre o cliente e restaurante.                                                       |
+| Pedido              | É o pedido feito peloo cliente ao estabelcimento.                                                       |
 | Reserva              | Representa uma reserva entre o cliente e o estabelecimento                                                       |
 | Cliente               | Usuário que reserva, paga e faz os pedidos.                                                      |
 | Estabelecimento                 | É o estabelecimento (restaurante)                                                 |
