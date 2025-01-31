@@ -52,7 +52,6 @@ Liste e descreva os bounded contexts identificados no projeto. Explique a respon
 | Contexto de Analise dos dados   | Responsavel por levantar dados da ocupação, horários e pedidos mais feitos.                              | Analise de dados |
 | Contexto de Cadastro  | Responsavel por fazer o cadastro de usuários e estabelecimentos                 | Cadastro de usuarios, cadastro de estabelecimentos |
 | Contexto de pedidos   | Responsavel por gerenciar os pedidos feitos nas filas ou nas mesas.                              | Gestão de pedidos, Menu |
-| Contexto de Analise dos dados   | Responsavel por levantar dados da ocupação, horários e pedidos mais feitos.                              | Analise de dados |
 
 ---
 
