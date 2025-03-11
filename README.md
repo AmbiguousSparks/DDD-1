@@ -74,7 +74,7 @@ Liste os termos principais da Linguagem Ubíqua do projeto. Explique brevemente 
 
 | **Termo**                    | **Descrição**                                                                                   |
 |------------------------------|-----------------------------------------------------------------------------------------------|
-| Pedido              | É o pedido feito peloo cliente ao estabelcimento.                                                       |
+| Pedido              | É o pedido feito pelo cliente ao estabelcimento.                                                       |
 | Reserva              | Representa uma reserva entre o cliente e o estabelecimento                                                       |
 | Cliente               | Usuário que reserva, paga e faz os pedidos.                                                      |
 | Estabelecimento                 | É o estabelecimento (restaurante)                                                 |
