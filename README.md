@@ -281,3 +281,6 @@ public enum TipoDocumento
     CNPJ
 }
 ```
+
+# 📌 Event Storming
+
