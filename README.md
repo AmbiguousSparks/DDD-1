@@ -110,4 +110,7 @@ Para cada tipo de subdomínio, explique a abordagem para implementação:
 | Contexto de Pedido  | Contexto de Conta   | **Shared Kernel**                | Para gerar uma conta para o cliente |
 | Contexto de Ocupação   | Contexto de Análise de Dados   | **Conformist** | Para enviar dados para análise de dados e dashboard |
 | Contexto de Cadastro   | Contexto de Análise de Dados   | **Conformist** | Para enviar dados para análise de dados e dashboard |
+| Contexto de Pedido   | Contexto de Análise de Dados   | **Conformist** | Para enviar dados para análise de dados e dashboard |
+| Contexto de Reservas   | Contexto de Análise de Dados   | **Conformist** | Para enviar dados para análise de dados e dashboard |
+| Contexto de Filas   | Contexto de Análise de Dados   | **Conformist** | Para enviar dados para análise de dados e dashboard |
 
