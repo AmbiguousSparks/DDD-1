@@ -284,3 +284,4 @@ public enum TipoDocumento
 
 # 📌 Event Storming
 
+![EventStorming](./EventStorming.jpg)
