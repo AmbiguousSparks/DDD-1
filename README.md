@@ -13,6 +13,14 @@ Identificar os subdomínios do projeto, classificá-los (Core, Supporting, Gener
 ## 2. Objetivo Principal do Projeto
 **Melhorar a experiência de visita à restaurantes com alta demanda, através de gestão de filas virtuais.**  
 
+###  Participantes
+
+| **Nome**              | **RM**                                                                                      | 
+|-----------------------------|--------------------------------------------------------------------------------------------------|
+| Carlos Mario Novais Oliveira            | 358644                                                        | 
+| Daniel Pascoal Dias Santos            | 358625                                                        | 
+| Marcelo Barato de França            | 358506                                                        | 
+| Ricardo da Silva Ferreira            | 358752                                                        | 
 
 ---
 
