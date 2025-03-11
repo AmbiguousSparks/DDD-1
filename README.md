@@ -97,5 +97,17 @@ Para cada tipo de subdomínio, explique a abordagem para implementação:
 
 ---
 
+# 📚 Design Estratégico do Projeto
 
+### **2️⃣ Atividade Prática: Context Mapping no Projeto**
+
+![MappingContext](./DDD2.drawio.png)
+
+| **Origem**               | **Destino**              | **Tipo de Relacionamento**       | **Explicação** |
+|--------------------------|-------------------------|--------------------------------|---------------|
+| Contexto de Fila    | Contexto de Ocupação  | **Shared Kernel**          | Para obter ocupação da unidades para alocar a fila. |
+| Contexto de Reserva     | Contexto de Pagamentos   | **Anticorruption Layer (ACL)**            | Para realizar o pagamento pela reserva. |
+| Contexto de Pedido  | Contexto de Conta   | **Shared Kernel**                | Para gerar uma conta para o cliente |
+| Contexto de Ocupação   | Contexto de Análise de Dados   | **Conformist** | Para enviar dados para análise de dados e dashboard |
+| Contexto de Cadastro   | Contexto de Análise de Dados   | **Conformist** | Para enviar dados para análise de dados e dashboard |
 
